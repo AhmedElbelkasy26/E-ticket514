@@ -8,5 +8,6 @@ namespace E_ticket514.Models.ViewModels
         public List<SelectListItem> Cinemas { get; set; }
         public List<SelectListItem> Actors { get; set; }
         public Movie Movie { get; set; }
+        public List<ActorMovie> MyActors { get; set; }
     }
 }
